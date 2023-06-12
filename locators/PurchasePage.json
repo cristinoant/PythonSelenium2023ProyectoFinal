@@ -1,0 +1,71 @@
+{
+  "url": "https://laboratorio.qaminds.com/index.php?route=account/login",
+  "locators": {
+    "email_input": {
+      "by": "ID",
+      "value": "input-email"
+    },
+    "password_input": {
+      "by": "ID",
+      "value": "input-password"
+    },
+    "login_btn": {
+      "by": "XPATH",
+      "value": "//input[@value=\"Login\"]"
+    },
+    "find_phones_and_pdas_menu":{
+      "by": "PARTIAL_LINK_TEXT",
+      "value": "Phones"
+    },
+    "add_to_cart_phone_htc":{
+      "by": "XPATH",
+      "value": "//*[@onclick=\"cart.add('28', '1');\"]"
+    },
+    "add_to_cart_phone_iphone":{
+      "by": "XPATH",
+      "value": "//*[@onclick=\"cart.add('40', '1');\"]"
+    },
+    "add_to_cart_phone_palm":{
+      "by": "XPATH",
+      "value": "//*[@onclick=\"cart.add('29', '1');\"]"
+    },
+    "find_cameras_menu": {
+      "by": "LINK_TEXT",
+      "value": "Cameras"
+    },
+    "add_to_cart_camera_nikon": {
+      "by": "XPATH",
+      "value": "//*[@onclick=\"cart.add('31', '1');\"]"
+    },
+    "validate_checkout": {
+      "by": "XPATH",
+      "value": "//*/span[@id=\"cart-total\"]"
+    },
+    "htc_in_cart": {
+      "by": "XPATH",
+      "value": "//td/a/img[@alt=\"HTC Touch HD\"]"
+    },
+    "palm_in_cart": {
+      "by": "XPATH",
+      "value": "//td/a/img[@alt=\"Palm Treo Pro\"]"
+    },
+    "iphone_in_cart": {
+      "by": "XPATH",
+      "value": "//td/a/img[@alt=\"iPhone\"]"
+    },
+    "camera_in_cart": {
+      "by": "XPATH",
+      "value": "//td/a/img[@alt=\"Nikon D300\"]"
+    },
+    "validate_subtotal_amount": {
+      "by": "XPATH",
+      "value": "//*/div/table/tbody/tr[1]/td[2]"
+    },
+    "validate_total_amount" : {
+      "by": "XPATH",
+      "value": "//*/div/table/tbody/tr[2]/td[2]"
+    }
+
+
+  }
+}

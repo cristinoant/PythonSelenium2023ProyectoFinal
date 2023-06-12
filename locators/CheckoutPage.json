@@ -1,0 +1,87 @@
+{
+  "url": "https://laboratorio.qaminds.com/index.php?route=account/login",
+  "locators": {
+    "email_input": {
+      "by": "ID",
+      "value": "input-email"
+    },
+    "password_input": {
+      "by": "ID",
+      "value": "input-password"
+    },
+    "login_btn": {
+      "by": "XPATH",
+      "value": "//input[@value=\"Login\"]"
+    },
+    "checkout_btn": {
+      "by": "LINK_TEXT",
+      "value": "Checkout"
+    },
+    "new_address_btn": {
+      "by": "XPATH",
+      "value": "//*/input[@name=\"payment_address\" and @value=\"new\"]"
+    },
+    "firstname_input": {
+      "by": "ID",
+      "value": "input-payment-firstname"
+    },
+    "lastname_input": {
+      "by": "ID",
+      "value": "input-payment-lastname"
+    },
+    "company_input": {
+      "by": "ID",
+      "value": "input-payment-company"
+    },
+    "address1_input": {
+      "by": "ID",
+      "value": "input-payment-address-1"
+    },
+    "city_input": {
+      "by": "ID",
+      "value": "input-payment-city"
+    },
+    "post_code_input": {
+      "by": "ID",
+      "value": "input-payment-postcode"
+    },
+    "country_input": {
+      "by": "ID",
+      "value": "input-payment-country"
+    },
+    "continue_payment_btn": {
+      "by": "ID",
+      "value": "button-payment-address"
+    },
+    "existing_address_radio_btn": {
+      "by": "XPATH",
+      "value": "//*/input[@name=\"shipping_address\" and @value=\"existing\"]"
+    },
+    "continue_shipping_method_btn": {
+      "by": "ID",
+      "value": "button-shipping-method"
+    },
+    "checkbox_agree_checkbox": {
+      "by": "NAME",
+      "value": "agree"
+    },
+    "continue_payment_method_btn": {
+      "by": "ID",
+      "value": "button-payment-method"
+    },
+    "subtotal_amount": {
+      "by": "XPATH",
+      "value": "//div/div[1]/table/tfoot/tr[1]/td[2]"
+    },
+    "total_amount": {
+      "by": "XPATH",
+      "value": "//div/div[1]/table/tfoot/tr[3]/td[2]"
+    },
+    "confirm_btn_order": {
+      "by": "ID",
+      "value": "button-confirm"
+    }
+
+
+  }
+}

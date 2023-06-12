@@ -1,0 +1,45 @@
+{
+  "url": "https://laboratorio.qaminds.com/index.php?route=account/register",
+  "locators": {
+    "first_name_input": {
+      "by": "ID",
+      "value": "input-firstname"
+    },
+    "last_name_input": {
+      "by": "ID",
+      "value": "input-lastname"
+    },
+    "email_input":{
+      "by": "ID",
+      "value": "input-email"
+    },
+    "telephone_input":{
+      "by": "ID",
+      "value": "input-telephone"
+    },
+    "password_input": {
+      "by": "ID",
+      "value": "input-password"
+    },
+    "confirm_password":{
+      "by": "ID",
+      "value": "input-confirm"
+    },
+    "checkbox_terms": {
+      "by": "NAME",
+      "value": "agree"
+    },
+    "continue_btn": {
+      "by": "XPATH",
+      "value": "//input[@value=\"Continue\"]"
+    },
+    "email_already_msg": {
+      "by": "CLASS_NAME",
+      "value": "alert-danger"
+    },
+    "checkbox_msg": {
+      "by": "CLASS_NAME",
+      "value": "alert-danger"
+    }
+  }
+}

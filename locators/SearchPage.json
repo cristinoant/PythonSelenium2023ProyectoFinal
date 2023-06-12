@@ -1,0 +1,45 @@
+{
+  "url": "https://laboratorio.qaminds.com/",
+  "locators": {
+    "search_input": {
+      "by": "NAME",
+      "value": "search"
+    },
+    "search_btn": {
+      "by": "XPATH",
+      "value": "//div[@id=\"search\"]//button"
+    },
+    "find_element_macbook":{
+      "by": "LINK_TEXT",
+      "value": "MacBook"
+    },
+    "price_element_macbook":{
+      "by": "XPATH",
+      "value": "//h2[contains(text(), '$602.00')]"
+    },
+    "find_element_iphone":{
+      "by": "LINK_TEXT",
+      "value": "iPhone"
+    },
+    "price_element_iphone":{
+      "by": "XPATH",
+      "value": "//h2[contains(text(), '$123.20')]"
+    },
+    "find_element_cinema":{
+      "by": "PARTIAL_LINK_TEXT",
+      "value": "Apple Cinema"
+    },
+    "price_element_cinema":{
+      "by": "XPATH",
+      "value": "//h2[contains(text(), '$110.00')]"
+    },
+    "find_element_canon":{
+      "by": "PARTIAL_LINK_TEXT",
+      "value": "Canon"
+    },
+    "price_element_canon":{
+      "by": "XPATH",
+      "value": "//h2[contains(text(), '$98.00')]"
+    }
+  }
+}
